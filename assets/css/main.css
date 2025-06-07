@@ -92,6 +92,27 @@ input, select, textarea {
   		color: white;
 		}
 
+.normativa-container {
+  max-width: 900px;     /* Ancho como si fuera una hoja */
+  margin: 0 auto;       /* Centra horizontalmente */
+  padding: 2rem;        /* Espacio interior */
+  background: #1c1d26; 
+  line-height: 1.6;     /* Espaciado entre líneas */
+}
+
+.normativa-container h3 {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.normativa-container p,
+.normativa-container ul {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+
 /* mosaico */
 /* Sección de galería comunitaria */
 .community-gallery {

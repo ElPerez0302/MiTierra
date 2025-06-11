@@ -74,6 +74,17 @@ input, select, textarea {
 
 /* Basic */
 
+.title-rules {
+		color: #ffffff;
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		font-size: 2em;
+		letter-spacing: -0.025em;
+		text-align: start;
+	}
+
+
 /* Boton FiveM */
 		.boton-fivem {
   		display: inline-block;

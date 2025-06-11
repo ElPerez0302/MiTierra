@@ -2846,8 +2846,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
-
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -3617,11 +3615,11 @@ input, select, textarea {
 			width: 1%;
 		}
 
-		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/mitierra.jpg");;
-			background-image: -webkit-linear-gradient(top, rgb(86 87 97 / 48%), rgb(14 14 14 / 95%)), url(images/mitierra.jpg);;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/mitierra.jpg");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/mitierra.jpg");;
+		/* #banner:after {
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/mitierra2.jpg");;
+			background-image: -webkit-linear-gradient(top, rgb(86 87 97 / 48%), rgb(14 14 14 / 95%)), url(images/mitierra2.jpg);;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/mitierra2.jpg");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/mitierra2.jpg");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3629,7 +3627,23 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+		} */
+		
+		#banner:after {
+    		background-image: linear-gradient(to bottom, rgba(86 87 97 / 48%), rgba(14 14 14 / 95%)), url("images/mitierra2.jpg");
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		background-position: center;
+
+    		content: '';
+    		display: block;
+    		height: 100%;
+    		left: 0;
+    		position: absolute;
+    		top: 0;
+    		width: 100%;
 		}
+
 
 		#banner .content {
 			display: inline-block;
@@ -3676,6 +3690,7 @@ input, select, textarea {
 	body.is-touch #banner {
 		background-attachment: scroll;
 	}
+	
 
 /* Footer */
 

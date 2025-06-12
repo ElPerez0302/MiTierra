@@ -89,6 +89,7 @@ input, select, textarea {
 		.boton-fivem {
   		display: inline-block;
   		margin-top: 20px;
+		margin-bottom: 20px;
   		padding: 12px 24px;
   		background-color: #00ff88;
   		color: #1a1a1a;
@@ -262,7 +263,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			/* color: #e44c65 !important; */
 			border-bottom-color: transparent;
 		}
 
@@ -3562,6 +3563,7 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
+						font-size: 25pt;
 					}
 
 						#header nav ul li a.button, #header nav ul li span.button {
